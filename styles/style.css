@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 body {
@@ -31,15 +34,19 @@ a {
 }
 
 .header__navigation {
-
+    display: flex;
 }
 
 .header__list {
     display: flex;
-    flex-direction: row; /* default */
-    justify-content: flex-start; /* default */
+    flex-direction: row;
+    /* default */
+    justify-content: flex-start;
+    /* default */
     gap: 94px;
 }
+
+
 
 /* .header__item + .header__item {
     margin-left: 94px;
@@ -47,11 +54,291 @@ a {
 
 /* end header block */
 
+/* main block  */
 
 .hero {
-    background: url("/assets/img/hero.jpeg");
+    background: url("/homework_7/assets/img/hero.jpeg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    min-height: 619px;
+}
+
+/* hero content */
+
+p {
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+}
+
+.FoodApp {
+    padding-top: 73px;
+}
+
+h1 {
+    min-width: 937px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    padding: 17px 251.5px 27px 251.5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero-description {
+    min-width: 551px;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    padding: 0px 88px 48px 89px;
+}
+
+/* buttons block */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    padding-bottom: 146px;
+}
+
+.Playstore {
+    margin-right: 17px;
+    border-radius: 30px;
+    background-color: #FA4A0C;
+    color: #FFF;
+    width: 236px;
+    padding: 16px;
+    border: 0;
+}
+
+.AppStore {
+    margin-left: 17px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: rgba(28, 28, 28, 0);
+    width: 236px;
+    padding: 16px;
+}
+
+
+/* end buttons block  */
+
+/* mobile block */
+
+.mobiles {
+    height: 592px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobiles__red {
+    position: relative;
+    top: -285px;
+    left: 68px;
+    z-index: 10;
+}
+
+.mobiles__white {
+    position: relative;
+    top: -237px;
+    left: -174px;
+}
+
+/* end mobile block */
+
+hr {
+    display: flex;
+    width: 884px;
+    height: 3px;
+    background: #E4E4E4;
+    border: 0;
+    margin-left: 268px ;
+}
+
+/* section 2 block */
+
+.section-two-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h2 {
+    padding-top: 72px;
+    text-align: center;
+}
+
+.section-two__items {
+    min-height: 157px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 145px;
+    padding-right: 154px;
+    margin: 0 auto;
+}
+
+.section-two__item-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 254px;
+    margin-right: 232px;
+}
+
+figure {
+    display: flex;
+
+}
+
+figcaption {
+    display: flex;
+    min-width: 568px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+
+}
+
+.section-two__heading {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.section-two__first-text {
+    min-width: 561px;
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.section-two__second-text {
+    width: 468px;
+    color: #737373;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.central-img {
+    display: flex;
+}
+
+.central-caption {
+    display: flex;
+}
+
+.third-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-foot {
+    background: url("/homework_7/assets/img/Rectangle 47.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: auto;
+    min-height: 516px;
+}
+
+.hero-foot__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero-foot__header {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding-top: 112px;
+}
+
+.footer__description {
+    display: flex;
+    align-items: center;
+    color: #5C5C5C;
+    text-align: right;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+.buttons-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    padding-bottom: 146px;
+    padding-top: 60px;
+}
+
+.Playstore-foot {
+    margin-right: 17px;
+    border-radius: 10px;
+    background-color: #FA4A0C;
+    color: #FFF;
+    min-width: 142px;
+    padding: 18px 31px;
+    border: 0;
+}
+
+.AppStore-foot {
+    margin-left: 17px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: rgba(28, 28, 28, 0);
+    width: 173px;
+    padding: 16px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    gap: 24px;
 }
