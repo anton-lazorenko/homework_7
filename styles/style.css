@@ -70,7 +70,6 @@ a {
 p {
     color: #F6F6F6;
     text-align: center;
-    font-family: Montserrat;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -86,7 +85,7 @@ h1 {
     min-width: 937px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 58px;
     font-weight: 700;
     line-height: 80px;
@@ -100,7 +99,7 @@ h1 {
     min-width: 551px;
     color: #F6F6F6;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 38px;
@@ -114,7 +113,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -280,7 +279,7 @@ figcaption {
 .hero-foot__header {
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 57px;
@@ -293,7 +292,7 @@ figcaption {
     align-items: center;
     color: #5C5C5C;
     text-align: right;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
@@ -304,7 +303,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
