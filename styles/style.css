@@ -57,7 +57,7 @@ a {
 /* main block  */
 
 .hero {
-    background: url("/assets/img/hero.jpeg");
+    background: url("assets/img/hero.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@ figcaption {
 }
 
 .hero-foot {
-    background: url("/assets/img/Rectangle\ 47.jpg");
+    background: url("assets/img/Rectangle 47.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
